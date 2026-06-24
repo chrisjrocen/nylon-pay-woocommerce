@@ -1,0 +1,27 @@
+/**
+ * Nylon Pay — Checkout field styles.
+ * Minimal additions; WooCommerce handles the rest.
+ */
+
+.nylon-pay-phone-field {
+	margin-top: 12px;
+}
+
+.nylon-pay-phone-field input[type="tel"],
+.nylon-pay-phone-field select {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.nylon-pay-phone-field label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 4px;
+}
+
+.nylon-pay-field-hint {
+	display: block;
+	color: #767676;
+	font-size: 0.85em;
+	margin-top: 4px;
+}
